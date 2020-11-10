@@ -121,6 +121,8 @@ public class City_Name {
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
 		
+		input+=" giberrish";
+		
 		String[] split = input.split("[ ,!.?]+");
 		
 		int status = 0;
