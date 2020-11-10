@@ -101,7 +101,7 @@ public class City_Name {
 		currentPos=root;		
 
 		try {
-			Scanner sc = new Scanner(new File("E:\\aws-post-deplo\\city_name\\src\\city_name\\worldcitiesupdated.csv"));
+			Scanner sc = new Scanner(new File("worldcitiesupdated.csv"));
 			sc.useDelimiter(",");
 			
 			while(sc.hasNext())
